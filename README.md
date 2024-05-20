@@ -12,10 +12,12 @@ Run the form locally on port 3125 to request data from the microservice. Type in
 
 Receiving Data
 
-To receive data, the flask server takes the POST request and extracts the data from the form. The server takes in the data to request the exchange rate from the link that is in the URL. The server processes the API response and calculates the converted amount and sends back the converted amount back to the client. 
+To receive data, the flask server takes the POST request and extracts the data from the form at the /convert endpoint. The server takes in the data to request the exchange rate from the link that is in the URL. The server processes the API response calculates the converted amount, and sends the converted amount back to the client. 
+![Screenshot (42)](https://github.com/Neighbor07/Microservice-for-Joel/assets/167046423/a5bbd364-5ee1-4a8e-a6d8-02c31c22c9e6)
 
 
 Address
+
 The address will be what is said in the convert.py. (http://127.0.0.1:3125 and 3125). It is 3125 because the other port said being used. Feel free to change it if 3125 is not operating. 
 
 UML Sequence Diagram
