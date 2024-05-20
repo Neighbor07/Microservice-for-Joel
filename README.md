@@ -13,6 +13,7 @@ Run the form locally on port 3125 to request data from the microservice. Type in
 Receiving Data
 
 To receive data, the flask server takes the POST request and extracts the data from the form at the /convert endpoint. The server takes in the data to request the exchange rate from the link that is in the URL. The server processes the API response calculates the converted amount, and sends the converted amount back to the client. 
+
 ![Screenshot (42)](https://github.com/Neighbor07/Microservice-for-Joel/assets/167046423/a5bbd364-5ee1-4a8e-a6d8-02c31c22c9e6)
 
 
